@@ -13,7 +13,7 @@
     Private Sub FindSubtotal(ByRef subtotalcost As Decimal)
 
         Select Case True
-            Case radbtnGlazed.Checked, RadBtnSugar.Created checked 
+            Case radbtnGlazed.Checked, RadBtnSugar.Created
                 subtotalcost = 1.05D
             Case RadbtnFilled.Checked
                 subtotalcost = 1.5D
@@ -29,7 +29,7 @@
         End Select
     End Sub
     Private Sub btnCalculate_Click() Handles btnCalculate.Click
-
+        'we are gonna do something here
     End Sub
 End Class
 
